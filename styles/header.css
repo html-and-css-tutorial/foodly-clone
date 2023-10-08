@@ -10,37 +10,43 @@
   border-bottom: 1px solid rgb(165, 164, 164);
   align-items: center;
   background-color: rgba(235, 234, 234, 0.95);
+  z-index: 100;
 }
 
 .left-section {
   display: flex;
   align-items: center;
+  width: 400px;
+}
+
+.hamburger-menu-icon {
+  height: 0;
+  display: flex;
+}
+
+.logo-section {
+  display: flex;
 }
 
 .foodly-icon {
   height: 32px;
-  margin-left: 155px;
+  margin-left: 158px;
 }
 
 .foodly-icon:hover {
   cursor: pointer;
 }
 
-@media (min-width:1600px) {
-  .left-section {
-    margin-left: 10%;
-  }
-  .foodly-icon {
-    margin-left: 0;
-  }
+.mini-foodly-icon {
+display: none;
 }
-
 
 .explore {
   font-weight: bold;
   margin-left: 20px;
   cursor: pointer;
   display: flex;
+  width: 100px;
 }
 
 .explore-menu {
@@ -61,7 +67,7 @@
 }
 
 .right-section {
-  margin-right: 10%;
+  margin-right: 70px;
   flex-direction: row;
 }
 
