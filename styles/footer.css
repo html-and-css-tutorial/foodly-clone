@@ -1,0 +1,93 @@
+.footer-section {
+    background-color: rgb(230, 220, 200);
+    height: 300px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-columns {
+    width: 300px;
+    height: 200px;
+    margin: 70px 20px;
+}
+
+.footer-foodly-icon {
+    width: 100px;
+    display: block;
+}
+
+.footer-text1 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.footer-social-media-thumbnail {
+    display: flex;
+    margin-left: 20px;
+}
+
+.footer-icons {
+    width: 30px;
+    margin: 10px 5px;
+}
+
+.footer-text2 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.footer-text3 {
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.apple-icon {
+    width: 180px;
+}
+
+.footer-text4 {
+    margin: 15px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.email-address {
+    display: flex;
+    margin: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.email-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.email-input {
+    border: none;
+    padding:0 7px;
+    font-size: 16px;
+}
+
+.subscribe-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 10px;
+    height: 40px;
+    background-color: rgb(234, 94, 72);
+    border-radius: 5px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
