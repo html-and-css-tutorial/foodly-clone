@@ -1,0 +1,128 @@
+
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  border-bottom: 1px solid rgb(165, 164, 164);
+  align-items: center;
+  background-color: rgba(235, 234, 234, 0.95);
+  z-index: 100;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  width: 400px;
+}
+
+.hamburger-menu-icon {
+  height: 0;
+  display: flex;
+}
+
+.logo-section {
+  display: flex;
+}
+
+.foodly-icon {
+  height: 32px;
+  margin-left: 158px;
+}
+
+.foodly-icon:hover {
+  cursor: pointer;
+}
+
+.mini-foodly-icon {
+display: none;
+}
+
+.explore {
+  font-weight: bold;
+  margin-left: 20px;
+  cursor: pointer;
+  display: flex;
+  width: 100px;
+}
+
+.explore-menu {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 190px;
+  margin-top: 81px;
+  background-color: rgb(235, 234, 234);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.explore:hover .explore-menu {
+  opacity: 1;
+}
+
+.right-section {
+  margin-right: 70px;
+  flex-direction: row;
+}
+
+.search-button {
+  margin: 0;
+  display: flex;
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  align-items: center;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.search-button:hover {
+  cursor: pointer;
+}
+
+.search-logo-icon {
+  height: 20px;
+  padding-right: 10px;
+}
+
+.searchbar-text {
+  font-weight: 500;
+}
+
+.menu-container {
+  margin: 20px 40px;
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  z-index: 10;
+}
+
+.menu-columns {
+  margin-right: 50px;
+}
+
+.menu-items {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  border: none;
+  background-color: rgb(235, 234, 234,);
+}
+
+.menu-header {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-decoration: underline;
+  font-size: 16px;
+}

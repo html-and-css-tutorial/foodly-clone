@@ -1,0 +1,27 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(235, 234, 234);
+}
+
+p {
+    margin: 0;
+}
+
+
+.show-more-button-section {
+    display: flex;
+    justify-content: center;
+}
+
+.show-more-button-holder {
+    width: auto;
+    display: flex;
+    background-color: rgb(234, 94, 72);
+    padding: 10PX 15PX; 
+    border-radius: 30PX;
+    color: rgb(235, 234, 234);
+}

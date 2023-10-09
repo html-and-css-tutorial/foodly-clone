@@ -1,12 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>food.ly</title>
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/header-media.css">
+  <link rel="stylesheet" href="styles/slider.css">
+  <link rel="stylesheet" href="styles/grid.css">
+  <link rel="stylesheet" href="styles/second-grid.css">
+  <link rel="stylesheet" href="styles/footer.css">
+
 </head>
+
 <body>
-    Initial commit
-    Main branch
+           <!--$$$$$$$$$$$$$$$$  header Section  $$$$$$$$$$$$$$--> 
+  <header class="header">
+    <div class="left-section">
+        <div class="hamburger-menu">
+          <img class="hamburger-menu-icon" src="icons/hamburger-menu.svg">
+        </div>
+        <div class="logo-section">
+          <img class="foodly-icon" src="icons/foodly-icon.svg" alt="">
+          <img class="mini-foodly-icon" src="icons/foodly-icon-minimal.svg">
+        </div>
+        <div class="explore">
+          <p class="explore-text">Explore</p>
+          <!--$$$$$$$$$$$$$$$$  explore menu  $$$$$$$$$$$$$$-->
+          <nav class="explore-menu">
+            <div class="menu-container">
+              <div class="menu-columns">
+                <p class="menu-header">Meal type</p>
+                <button class="menu-items">Breafast</button>
+                <button class="menu-items">Lunch</button>
+                <button class="menu-items">Dinner</button>
+                <button class="menu-items">Snacks</button>
+                <button class="menu-items">Drinks</button>
+                <button class="menu-items">Desserts</button>
+              </div>
+              <div class="menu-columns">
+                <p class="menu-header">Cuisine</p>
+                <button class="menu-items">French</button>
+                <button class="menu-items">Greek</button>
+                <button class="menu-items">Mexican</button>
+                <button class="menu-items">Asian</button>
+                <button class="menu-items">German</button>
+                <button class="menu-items">Indian</button>
+                <button class="menu-items">British</button>
+                <button class="menu-items">Italian</button>
+                <button class="menu-items">Eastern European</button>
+              </div>
+              <div class="menu-columns">
+                <button class="menu-items">Spanish</button>
+                <button class="menu-items">Chinese</button>
+                <button class="menu-items">Japanese</button>
+                <button class="menu-items">Thai</button>
+                <button class="menu-items">Bangladeshi</button>
+                <button class="menu-items">Moroccan</button>
+                <button class="menu-items">Vietnamese</button>
+                <button class="menu-items">Jamaican</button>
+                <button class="menu-items">American</button>
+                <button class="menu-items">Malaysian</button>
+                <button class="menu-items">Korean</button>
+              </div>
+              <div class="menu-columns">
+                <p class="menu-header">Difficulty</p>
+                <button class="menu-items">Super Easy</button>
+                <button class="menu-items">Easy</button>
+                <button class="menu-items">Medium</button>
+                <button class="menu-items">Hard</button>
+              </div>
+              <div class="menu-columns">
+                <p class="menu-header">Cook time</p>
+                <button class="menu-items">Less than 10 mins</button>
+                <button class="menu-items">Less than 30 mins</button>
+                <button class="menu-items">Less than 1 hour</button>
+                <button class="menu-items">More than 1 hour</button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    <div class="right-section">
+      <button class="search-button"><img  class="search-logo-icon" src="icons/search-icon.svg" alt=""><p class="searchbar-text">What are you feeling?</p></button>
+    </div>
+  </header>
+
+            <!--$$$$$$$$$$$$$$$$  main menu  $$$$$$$$$$$$$$-->
+  <main class="main-section">
+
+            <!--$$$$$$$$$$$$$$$$  slider menu  $$$$$$$$$$$$$$-->    
+    <section class="slider-section">
+      <div class="slider-container">
+        <div class="slider-left-section">
+          <img class="slider" src="images/slider1-cutted.jpg"> 
+        </div>
+        <div class="slider-right-section">
+          <p class="slider-first-row">@lerhv</p>
+          <p class="slider-second-row">Coconut Porridge</p>
+          <p class="slider-third-row">1-15 mins</p>
+        </div>
+      </div>
+    </section>
+
+            <!--$$$$$$$$$$$$$$$$  grid section $$$$$$$$$$$$$$-->
+
+
+     <section class="grid-section">       
+      <div class="grid-holder">
+        <div class="food-frame">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food1.jpg">
+            <div class="food-prepration-time">
+              8 &#183 32 mins
+            </div>
+          </div>
+          <p class="food-name">Kimchi fried rice with gochujang baked tempeh</p>
+          <p class="food-description">
+            A Korean inspired dish that makes a great quick and easy delicious weeknight meal.
+          </p>
+          <div class="food-auther-section">
+            <div class="food-auther-thumbnail">
+              <img class="food-auther-picture" src="thumbnails/thumbnail-1.jpg">
+            </div>
+            <div class="food-auther-name">
+              beccasvganfood
+            </div>
+          </div>
+        </div>
+        <div class="food-frame">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food2.jpg">
+            <div class="food-prepration-time">
+              8 &#183 32 mins
+            </div>
+          </div>
+          <p class="food-name">Kimchi fried rice with gochujang baked tempeh</p>
+          <p class="food-description">
+            A Korean inspired dish that makes a great quick and easy delicious weeknight meal.
+          </p>
+          <div class="food-auther-section">
+            <div class="food-auther-thumbnail">
+              <img class="food-auther-picture" src="thumbnails/thumbnail-1.jpg">
+            </div>
+            <div class="food-auther-name">
+              beccasvganfood
+            </div>
+          </div>
+        </div>
+        <div class="food-frame">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food3.jpg">
+            <div class="food-prepration-time">
+              8 &#183 32 mins
+            </div>
+          </div>
+          <p class="food-name">Kimchi fried rice with gochujang baked tempeh</p>
+          <p class="food-description">
+            A Korean inspired dish that makes a great quick and easy delicious weeknight meal.
+          </p>
+          <div class="food-auther-section">
+            <div class="food-auther-thumbnail">
+              <img class="food-auther-picture" src="thumbnails/thumbnail-1.jpg">
+            </div>
+            <div class="food-auther-name">
+              beccasvganfood
+            </div>
+          </div>
+        </div>  
+        <div class="food-frame">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food4.jpg">
+            <div class="food-prepration-time">
+              8 &#183 32 mins
+            </div>
+          </div>
+          <p class="food-name">Kimchi fried rice with gochujang baked tempeh</p>
+          <p class="food-description">
+            A Korean inspired dish that makes a great quick and easy delicious weeknight meal.
+          </p>
+          <div class="food-auther-section">
+            <div class="food-auther-thumbnail">
+              <img class="food-auther-picture" src="thumbnails/thumbnail-1.jpg">
+            </div>
+            <div class="food-auther-name">
+              beccasvganfood
+            </div>
+          </div>
+        </div>  
+        <div class="food-frame">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food5.jpg">
+            <div class="food-prepration-time">
+              8 &#183 32 mins
+            </div>
+          </div>
+          <p class="food-name">Kimchi fried rice with gochujang baked tempeh</p>
+          <p class="food-description">
+            A Korean inspired dish that makes a great quick and easy delicious weeknight meal.
+          </p>
+          <div class="food-auther-section">
+            <div class="food-auther-thumbnail">
+              <img class="food-auther-picture" src="thumbnails/thumbnail-1.jpg">
+            </div>
+            <div class="food-auther-name">
+              beccasvganfood
+            </div>
+          </div>
+        </div>  
+        <div class="food-frame">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food6.jpg">
+            <div class="food-prepration-time">
+              8 &#183 32 mins
+            </div>
+          </div>
+          <p class="food-name">Kimchi fried rice with gochujang baked tempeh</p>
+          <p class="food-description">
+            A Korean inspired dish that makes a great quick and easy delicious weeknight meal.
+          </p>
+          <div class="food-auther-section">
+            <div class="food-auther-thumbnail">
+              <img class="food-auther-picture" src="thumbnails/thumbnail-1.jpg">
+            </div>
+            <div class="food-auther-name">
+              beccasvganfood
+            </div>
+          </div>
+        </div>  
+        <div class="food-frame">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food7.jpg">
+            <div class="food-prepration-time">
+              8 &#183 32 mins
+            </div>
+          </div>
+          <p class="food-name">Kimchi fried rice with gochujang baked tempeh</p>
+          <p class="food-description">
+            A Korean inspired dish that makes a great quick and easy delicious weeknight meal.
+          </p>
+          <div class="food-auther-section">
+            <div class="food-auther-thumbnail">
+              <img class="food-auther-picture" src="thumbnails/thumbnail-1.jpg">
+            </div>
+            <div class="food-auther-name">
+              beccasvganfood
+            </div>
+          </div>
+        </div>  
+        <div class="food-frame">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food8.jpg">
+            <div class="food-prepration-time">
+              8 &#183 32 mins
+            </div>
+          </div>
+          <p class="food-name">Kimchi fried rice with gochujang baked tempeh</p>
+          <p class="food-description">
+            A Korean inspired dish that makes a great quick and easy delicious weeknight meal.
+          </p>
+          <div class="food-auther-section">
+            <div class="food-auther-thumbnail">
+              <img class="food-auther-picture" src="thumbnails/thumbnail-1.jpg">
+            </div>
+            <div class="food-auther-name">
+              beccasvganfood
+            </div>
+          </div>
+        </div>  
+        <div class="food-frame">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food9.jpg">
+            <div class="food-prepration-time">
+              8 &#183 32 mins
+            </div>
+          </div>
+          <p class="food-name">Kimchi fried rice with gochujang baked tempeh</p>
+          <p class="food-description">
+            A Korean inspired dish that makes a great quick and easy delicious weeknight meal.
+          </p>
+          <div class="food-auther-section">
+            <div class="food-auther-thumbnail">
+              <img class="food-auther-picture" src="thumbnails/thumbnail-1.jpg">
+            </div>
+            <div class="food-auther-name">
+              beccasvganfood
+            </div>
+          </div>
+        </div>  
+      </div>
+     </section>
+
+
+              <!--$$$$$$$$$$$$$$$$  show more button $$$$$$$$$$$$$$-->
+
+    <div class="show-more-button-section">
+      <div class="show-more-button-holder">
+        Show more !
+      </div>
+    </div>
+
+              <!--$$$$$$$$$$$$$$$$  second grid Section $$$$$$$$$$$$$$-->
+
+      <p class="second-grid">Explore by cuisine</p>
+    <section class="second-grid-section">
+      <div class="second-grid-holder">
+        <div class="food-frame-second-grid">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food2.jpg">
+          </div>
+          <p class="food-name">French</p>
+
+        </div>
+        <div class="food-frame-second-grid">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food1.jpg">
+          </div>
+          <p class="food-name">Greek</p>
+
+        </div>
+        <div class="food-frame-second-grid">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food3.jpg">
+          </div>
+          <p class="food-name">Mexican</p>
+
+        </div>
+        <div class="food-frame-second-grid">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food4.jpg">
+          </div>
+          <p class="food-name">Asian</p>
+
+        </div>
+      </div>
+    </section>
+
+    <p class="second-grid">Explore by meal type</p>
+    <section class="second-grid-section">
+      <div class="second-grid-holder">
+        <div class="food-frame-second-grid">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food5.jpg">
+          </div>
+          <p class="food-name">Breafast</p>
+
+        </div>
+        <div class="food-frame-second-grid">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food6.jpg">
+          </div>
+          <p class="food-name">Lunch</p>
+
+        </div>
+        <div class="food-frame-second-grid">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food7.jpg">
+          </div>
+          <p class="food-name">Dinner</p>
+
+        </div>
+        <div class="food-frame-second-grid">
+          <div class="food-thumbnail">
+            <img class="food-picture" src="thumbnails/food8.jpg">
+          </div>
+          <p class="food-name">Snacks</p>
+
+        </div>
+      </div>
+    </section>
+
+              <!--$$$$$$$$$$$$$$$$  footer Section $$$$$$$$$$$$$$-->
+
+    <section class="footer-section">
+      <div class="footer-grid">
+        <div class="footer-columns">
+          <img class="footer-foodly-icon" src="icons/foodly-icon.svg">
+          <p class="footer-text1">
+            All in one cooking app helping you discover, shop and plan.
+          </p>
+          <div class="footer-social-media-thumbnails">
+            <img class="footer-icons" src="icons/linkedin.png">
+            <img class="footer-icons" src="icons/instagram.png">
+          </div>
+        </div>
+
+
+        <div class="footer-columns">
+          <p class="footer-text2">About</p>
+          <p class="footer-text2">Terms & Conditions</p>
+          <p class="footer-text2">Privacy Policy</p>
+          <p class="footer-text2">Contact us</p>
+        </div>
+        <div class="footer-columns">
+          <p class="footer-text3">
+            Get the app
+          </p>
+          <img class="apple-icon" src="icons/apple.webp">
+        </div>
+        <div class="footer-columns">
+          <p class="footer-text4">
+            Subscribe to our newsletter for inspiration
+          </p>
+          <div class="email-address">
+            <img class="email-icon" src="icons/email.png">
+            <input class="email-input" placeholder="Email address">
+          </div>
+          <div class="subscribe-button">
+            <p class="footer-text5">
+              Subscribe
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
 </body>
+
 </html>
